@@ -1,0 +1,9 @@
+.random-number {
+    display: flex; 
+    border: 2px solid black;
+    gap: 5px; 
+    padding: 5px 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,41 @@
+.credit-card {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-radius: 3%;
+}
+
+.credit-card .type {
+    display: flex; 
+    justify-content: flex-end;
+    margin-right: 15px;
+    margin-top: 15px;
+
+}
+.credit-card .type img {
+   
+    width: 80px;
+    height: auto;
+}
+.credit-card .creditNumber {
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 5px
+}
+.credit-card .data .expires {
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.credit-card .data .bank {
+    text-align: center;
+    font-weight: bold;
+}
+.credit-card .data-owner {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-left: 10px;
+}
